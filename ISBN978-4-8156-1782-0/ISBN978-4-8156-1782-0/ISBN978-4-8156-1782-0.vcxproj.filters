@@ -23,7 +23,7 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="max2x1_test.c">
+    <ClCompile Include="dateb.c">
       <Filter>Source Files\chap01</Filter>
     </ClCompile>
   </ItemGroup>

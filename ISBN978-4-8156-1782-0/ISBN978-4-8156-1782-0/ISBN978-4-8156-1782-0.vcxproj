@@ -22,7 +22,7 @@
     <ClInclude Include="max2x1.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="max2x1_test.c" />
+    <ClCompile Include="dateb.c" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
