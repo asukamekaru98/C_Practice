@@ -1,1 +1,5 @@
-﻿  ISBN978-4-8156-1782-0.vcxproj -> T:\Git\C_Practice\ISBN978-4-8156-1782-0\x64\Debug\ISBN978-4-8156-1782-0.exe
+﻿  max2x2_test.c
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(703,5): error MSB6006: "CL.exe" exited with code 2.
+T:\Git\C_Practice\ISBN978-4-8156-1782-0\ISBN978-4-8156-1782-0\max2x2_test.c(6,12): error C2065: 'a': undeclared identifier
+T:\Git\C_Practice\ISBN978-4-8156-1782-0\ISBN978-4-8156-1782-0\max2x2_test.c(6,12): error C2065: 'b': undeclared identifier
+T:\Git\C_Practice\ISBN978-4-8156-1782-0\ISBN978-4-8156-1782-0\max2x2_test.c(6,12): error C2064: term does not evaluate to a function taking 0 arguments

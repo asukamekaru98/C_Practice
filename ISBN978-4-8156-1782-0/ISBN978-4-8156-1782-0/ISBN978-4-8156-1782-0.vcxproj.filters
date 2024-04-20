@@ -21,9 +21,12 @@
     <ClInclude Include="max2x1.h">
       <Filter>Source Files\chap01</Filter>
     </ClInclude>
+    <ClInclude Include="max2x2.h">
+      <Filter>Source Files\chap01</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="dateb.c">
+    <ClCompile Include="max2x2_test.c">
       <Filter>Source Files\chap01</Filter>
     </ClCompile>
   </ItemGroup>

@@ -20,9 +20,10 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="max2x1.h" />
+    <ClInclude Include="max2x2.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="dateb.c" />
+    <ClCompile Include="max2x2_test.c" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
