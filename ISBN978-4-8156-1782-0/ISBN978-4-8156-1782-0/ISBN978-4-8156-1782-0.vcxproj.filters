@@ -24,6 +24,9 @@
     <ClInclude Include="max2x2.h">
       <Filter>Source Files\chap01</Filter>
     </ClInclude>
+    <ClInclude Include="max2.h">
+      <Filter>Source Files\chap01</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="null_derective.c">
