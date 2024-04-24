@@ -24,7 +24,7 @@
     <ClInclude Include="max2x2.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="null_derective.c" />
+    <ClCompile Include="assert_div.c" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
