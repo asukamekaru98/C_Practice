@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="swap.c">
+    <ClCompile Include="luhn.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
