@@ -29,8 +29,8 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="assert_div.c">
-      <Filter>Source Files\chap01</Filter>
+    <ClCompile Include="storage_duration1.c">
+      <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
