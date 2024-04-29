@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="luhn.c">
+    <ClCompile Include="marriage.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

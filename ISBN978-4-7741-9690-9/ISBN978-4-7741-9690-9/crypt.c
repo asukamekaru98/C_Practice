@@ -7,7 +7,7 @@ int main(int argc, char* argv[])
 	FILE* infile, * outfile;
 
 
-	if (argc < 3 || argc > 4) ||
+	if ((argc < 3 || argc > 4) ||
 		(infile = fopen(argv[1], "rb")) == NULL ||
 		(outfile = fopen(argv[2], "wb")) == NULL){
 			fputs("Žg—p–@: crypt infile outfile [key]\n", stderr);
