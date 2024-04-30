@@ -27,14 +27,15 @@ int main(void)
 		}
 	}
 	
+	// 安定結婚の計算
 	for (b = 1; b <= N; b++) {
 		s = b;
 		while (s != 0) {
-			g = girl[s][++position[s]];
-			if (rank[g][s] < rank[g][boy[g]]) {
-				t = boy[g];
-				boy[g] = s;
-				s = t;
+			g = girl[s][++position[s]]; // 女性 s が次にプロポーズする男性の番号を取得
+			if (rank[g][s] < rank[g][boy[g]]) { // 女性 s が男性 g を選好しており、かつ男性 g が女性 s を現在の婚約者よりも選好する場合
+				t = boy[g]; // 男性 g の現在の婚約者を一時的に保存
+				boy[g] = s; // 男性 g は女性 s と婚約
+				s = t; // 女性 t にプロポーズする（t は男性 g の以前の婚約者）
 			}
 		}
 	}
