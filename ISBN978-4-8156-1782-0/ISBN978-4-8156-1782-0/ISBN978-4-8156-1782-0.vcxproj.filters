@@ -29,7 +29,7 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="typedef_ary1.c">
+    <ClCompile Include="typedef_ary2.c">
       <Filter>Source Files\chap01</Filter>
     </ClCompile>
   </ItemGroup>
