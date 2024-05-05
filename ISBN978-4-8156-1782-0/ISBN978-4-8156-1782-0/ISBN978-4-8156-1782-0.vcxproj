@@ -24,7 +24,7 @@
     <ClInclude Include="max2x2.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="typedef_ary2.c" />
+    <ClCompile Include="stack1.c" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
