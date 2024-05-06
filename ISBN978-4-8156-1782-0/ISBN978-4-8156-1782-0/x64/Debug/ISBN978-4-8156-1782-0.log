@@ -1,3 +1,2 @@
-﻿  rand_0_9.c
-T:\Git\C_Practice\ISBN978-4-8156-1782-0\ISBN978-4-8156-1782-0\rand_0_9.c(21,8): warning C4244: 'function': conversion from 'time_t' to 'unsigned int', possible loss of data
+﻿  date_time1.c
   ISBN978-4-8156-1782-0.vcxproj -> T:\Git\C_Practice\ISBN978-4-8156-1782-0\x64\Debug\ISBN978-4-8156-1782-0.exe
