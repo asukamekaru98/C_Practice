@@ -29,8 +29,8 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="typedef_ary2.c">
-      <Filter>Source Files\chap01</Filter>
+    <ClCompile Include="compare1.c">
+      <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
