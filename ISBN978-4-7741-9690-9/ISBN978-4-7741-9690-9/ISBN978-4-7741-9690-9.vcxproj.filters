@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="ishi1.c">
+    <ClCompile Include="ishi2.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
