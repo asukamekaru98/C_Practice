@@ -24,8 +24,7 @@
     <ClInclude Include="max2x2.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="date_time2.c" />
-    <ClCompile Include="rgb.c" />
+    <ClCompile Include="evalution.c" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>

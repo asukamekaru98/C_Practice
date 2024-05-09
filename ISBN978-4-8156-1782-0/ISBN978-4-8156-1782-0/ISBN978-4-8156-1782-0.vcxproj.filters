@@ -16,6 +16,9 @@
     <Filter Include="Source Files\chap01">
       <UniqueIdentifier>{68436119-ad11-4dbd-83f4-ec0f668508a3}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\char02">
+      <UniqueIdentifier>{639c3530-89e0-4569-99f1-7e2b67c8ba02}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="max2x1.h">
@@ -29,8 +32,8 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="compare1.c">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="evalution.c">
+      <Filter>Source Files\char02</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
