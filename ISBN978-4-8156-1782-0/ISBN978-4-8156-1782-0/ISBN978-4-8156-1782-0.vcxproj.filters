@@ -32,7 +32,7 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="evalution.c">
+    <ClCompile Include="if1b.c">
       <Filter>Source Files\char02</Filter>
     </ClCompile>
   </ItemGroup>

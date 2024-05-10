@@ -24,7 +24,7 @@
     <ClInclude Include="max2x2.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="evalution.c" />
+    <ClCompile Include="if1b.c" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
