@@ -18,5 +18,8 @@
     <ClCompile Include="ishi2.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="isomer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
