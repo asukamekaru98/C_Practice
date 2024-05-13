@@ -23,6 +23,9 @@
     <ClInclude Include="max2x1.h" />
     <ClInclude Include="max2x2.h" />
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="minus_one.c" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
