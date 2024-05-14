@@ -31,9 +31,4 @@
       <Filter>Source Files\chap01</Filter>
     </ClInclude>
   </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="minus_one.c">
-      <Filter>Source Files\char02</Filter>
-    </ClCompile>
-  </ItemGroup>
 </Project>
