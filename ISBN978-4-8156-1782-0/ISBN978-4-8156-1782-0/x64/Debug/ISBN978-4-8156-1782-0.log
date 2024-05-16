@@ -1,7 +1,1 @@
-﻿  sqr2.c
-D:\git\C_Practice\ISBN978-4-8156-1782-0\ISBN978-4-8156-1782-0\sqr2.c(10,26): warning C4013: 関数 'sqr' は定義されていません。int 型の値を返す外部関数と見なします。
-D:\git\C_Practice\ISBN978-4-8156-1782-0\ISBN978-4-8156-1782-0\sqr2.c(10,9): warning C4477: 'printf' : 書式文字列 '%.3f' には、型 'double' の引数が必要ですが、可変個引数 1 は型 'int' です
-D:\git\C_Practice\ISBN978-4-8156-1782-0\ISBN978-4-8156-1782-0\sqr2.c(15,8): error C2371: 'sqr': 再定義されています。異なる基本型です。
-  sqr1.c
-c1 : fatal  error C1083: ソース ファイルを開けません。'sqr1.c':No such file or directory
-  コードを生成中...
+﻿  ISBN978-4-8156-1782-0.vcxproj -> D:\git\C_Practice\ISBN978-4-8156-1782-0\x64\Debug\ISBN978-4-8156-1782-0.exe
