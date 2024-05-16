@@ -19,9 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="max2.h" />
-    <ClInclude Include="max2x1.h" />
-    <ClInclude Include="max2x2.h" />
+    <ClCompile Include="sqr1.c" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>

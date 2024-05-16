@@ -13,22 +13,10 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="Source Files\chap01">
-      <UniqueIdentifier>{68436119-ad11-4dbd-83f4-ec0f668508a3}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\char02">
-      <UniqueIdentifier>{639c3530-89e0-4569-99f1-7e2b67c8ba02}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="max2x1.h">
-      <Filter>Source Files\chap01</Filter>
-    </ClInclude>
-    <ClInclude Include="max2x2.h">
-      <Filter>Source Files\chap01</Filter>
-    </ClInclude>
-    <ClInclude Include="max2.h">
-      <Filter>Source Files\chap01</Filter>
-    </ClInclude>
+    <ClCompile Include="sqr1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
