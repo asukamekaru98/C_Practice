@@ -1,1 +1,3 @@
-﻿  ISBN978-4-8156-1782-0.vcxproj -> D:\git\C_Practice\ISBN978-4-8156-1782-0\x64\Debug\ISBN978-4-8156-1782-0.exe
+﻿  add.c
+T:\Git\C_Practice\ISBN978-4-8156-1782-0\ISBN978-4-8156-1782-0\add.c(5,1): error C2449: found '{' at file scope (missing function header?)
+T:\Git\C_Practice\ISBN978-4-8156-1782-0\ISBN978-4-8156-1782-0\add.c(7,1): error C2059: syntax error: '}'
