@@ -19,7 +19,6 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="ishi2.c" />
     <ClCompile Include="isomer.c" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
