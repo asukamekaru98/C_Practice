@@ -18,5 +18,8 @@
     <ClCompile Include="isomer.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="statutil.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
