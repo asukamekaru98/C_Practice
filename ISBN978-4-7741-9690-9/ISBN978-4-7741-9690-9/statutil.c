@@ -57,4 +57,56 @@ void factor(int m, int nfac, matrix r, matrix q, vector lambda, vector work)
 		printf(" %8.4f  %5.1f\n", lambda[k], percent, s);
 	}
 	printf("合計 %8.4f  %5.1\n", t, s);
+
+	for (k = 0; k < fnac; k++) {
+		work[k] = sqrt(fabs(lambda[k]));
+	}
+
+	printf("変数  共通線  因子負荷量\n");
+	for (j = 0; j < m;j++) {
+		printf("%4d  %6.3f ", j + 1, r[j][j]);
+		for (k = 0;k < fnac;k++) {
+			q[k][j] *= work[k];
+			if (k < 9) {
+				printf("%7.3f", q[k][j]);
+			}
+			printf("\n");
+		}
+	}
+}
+
+int main(int argc, char* argv[])
+{
+	int i, j, k, n, m, nfac;
+	double t;
+
+	vector mean, lambda, work;
+	matrix r, q;
+	FILE* datafile;
+
+	if (argc != 2) {
+		error("使用法: factanal filename");
+	}
+
+	datafile = open_data(argc[1], &n, &m);
+	if (datafile == NULL) {
+		error("データ不良");
+	}
+
+	r = new_matrix(m, m);
+	q = new_matrix(m, m);
+	mean = new_vector(m);
+	lambda = new_vector(m);
+	work = new_vector(m);
+
+	for (j = 0;j < m;j++) {
+		mean[j] = 0;
+		for (k = 0; k <= j; k++) {
+			r[j][k] = 0;
+		}
+	}
+
+
+
+
 }
