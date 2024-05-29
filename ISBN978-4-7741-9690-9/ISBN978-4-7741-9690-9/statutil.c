@@ -138,7 +138,18 @@ int main(int argc, char* argv[])
 	printf("‘•ÏŒW”\n");
 
 	for (j = 0;j < m;j++) {
-		for(k = 0;k <= )
+		for (k = 0;k <= j;k++) {
+			printf("%8.4f", r[j][k]);
+		}
+		printf("\n");
 	}
 
+	for (;;) {
+		printf("\n ‹¤’Êˆöq‚Ì” (0:ÀsI—¹) ? ");
+		scanf("%d", &nfac);
+		if (nfac > m)nfac = m;
+		if (nfac < 1)break;
+		factor(m, nfac, r, q, lambda, work);
+	}
+	return 0;
 }
