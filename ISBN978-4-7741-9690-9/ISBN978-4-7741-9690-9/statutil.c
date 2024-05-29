@@ -106,7 +106,39 @@ int main(int argc, char* argv[])
 		}
 	}
 
+	for (i = 0;i < n;i++) {
+		for (j = 0;j < m;j++) {
+			t = getnum(datafile);
+			if (missing(t)) {
+				error("データ不良");
+			}
+			work[j] = t - mean[j];
+			mean[j] += work[j] / (i + 1);
+			for (k = 0;k <= j;k++) {
+				r[j][k] += i * work[j] * work[k] / (i + 1);
+			}
+		}
+	}
 
+	for (j = 0; j < m;j++) {
+		work[j] = sqrt(r[j[j]]);
+		r[j][j] = 1;
+		for (k = 0; k < j; k++) {
+			r[j][k] /= work[j] * work[k];
+			r[k][j] = r[j][k];
+		}
+	}
 
+	t = 1 / sqrt(n - 1.0);
+
+	printf("変数  平均値        標準僅差\n");
+	for (j = 0 j < m;j++) {
+		printf("%4d  % -12.5g  % -12.5g\n", j + 1, mean[j], t * work[j]);
+	}
+	printf("総変係数\n");
+
+	for (j = 0;j < m;j++) {
+		for(k = 0;k <= )
+	}
 
 }
