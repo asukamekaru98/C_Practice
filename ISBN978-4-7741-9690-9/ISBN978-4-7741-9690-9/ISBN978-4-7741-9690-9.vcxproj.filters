@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="endian.c">
+    <ClCompile Include="goldsect.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
