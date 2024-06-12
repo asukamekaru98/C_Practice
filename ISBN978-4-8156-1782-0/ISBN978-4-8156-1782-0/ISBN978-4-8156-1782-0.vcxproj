@@ -22,6 +22,10 @@
     <ClInclude Include="chap03\getchr.h" />
     <ClInclude Include="chap03\_getchr.h" />
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="chap03\ver4\getchr.c" />
+    <ClCompile Include="chap03\ver4\ungetchr.c" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>

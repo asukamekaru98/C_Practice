@@ -1,4 +1,2 @@
-﻿  getchr.c
-  ungetchr.c
-  コードを生成中...
-D:\git\C_Practice\ISBN978-4-8156-1782-0\ISBN978-4-8156-1782-0\ungetchr.c : fatal  error C1090: PDB API の呼び出しに失敗しました。エラー コード '3': D:\git\C_Practice\ISBN978-4-8156-1782-0\ISBN978-4-8156-1782-0\x64\Debug\vc143.pdb
+﻿  ungetchr.c
+  ISBN978-4-8156-1782-0.vcxproj -> D:\git\C_Practice\ISBN978-4-8156-1782-0\x64\Debug\ISBN978-4-8156-1782-0.exe

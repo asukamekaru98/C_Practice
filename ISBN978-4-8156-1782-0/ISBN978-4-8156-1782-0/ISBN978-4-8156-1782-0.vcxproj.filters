@@ -22,4 +22,12 @@
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="chap03\ver4\getchr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="chap03\ver4\ungetchr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
 </Project>
