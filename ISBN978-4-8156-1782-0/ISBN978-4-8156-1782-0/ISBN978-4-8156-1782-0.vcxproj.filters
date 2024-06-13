@@ -15,18 +15,15 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="chap03\_getchr.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="chap03\getchr.h">
+    <ClInclude Include="sum.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="chap03\ver4\getchr.c">
+    <ClCompile Include="sum.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="chap03\ver4\ungetchr.c">
+    <ClCompile Include="sum_test.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
