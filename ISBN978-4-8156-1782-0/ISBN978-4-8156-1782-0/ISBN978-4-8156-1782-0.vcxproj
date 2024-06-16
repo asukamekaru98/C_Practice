@@ -22,8 +22,7 @@
     <ClInclude Include="sum.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="sum.c" />
-    <ClCompile Include="sum_test.c" />
+    <ClCompile Include="max2_inline.c" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
