@@ -15,7 +15,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="goldsect.c">
+    <ClCompile Include="regress.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="statutil.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
