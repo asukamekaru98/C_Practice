@@ -8,6 +8,13 @@
 
 int lsq(int n, int m, matrix x, vector b, int* col, vector normsq)
 {
+	int i, j, k, r;
+	double s, t, u;
+	vector v, w;
+
+	for (j = 0;j < m;j++) {
+		normsq[j] = innnerproduct(n, x[j], x[j]);
+	}
 
 }
 
