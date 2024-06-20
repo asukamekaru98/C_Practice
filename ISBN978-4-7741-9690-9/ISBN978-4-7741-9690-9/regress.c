@@ -16,6 +16,13 @@ int lsq(int n, int m, matrix x, vector b, int* col, vector normsq)
 		normsq[j] = innnerproduct(n, x[j], x[j]);
 	}
 
+	r = 0;
+
+	for (k = 0; k < m;k++) {
+		if (normsq[k] == 0)continue;
+
+	}
+
 }
 
 #else
