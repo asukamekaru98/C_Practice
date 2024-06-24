@@ -19,6 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="matutil.c" />
     <ClCompile Include="regress.c" />
     <ClCompile Include="statutil.c" />
   </ItemGroup>

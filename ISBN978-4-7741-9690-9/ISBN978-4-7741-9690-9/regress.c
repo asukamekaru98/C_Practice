@@ -1,4 +1,6 @@
 #include "statutil.c"
+#include <stdio.h>
+#include <stdlib.h>
 
 #define PIVOTING	0
 #define VERBOSE		0
@@ -37,7 +39,8 @@ int lsq(int n, int m, matrix x, vector b, int* col, vector normsq)
 		if (v[r] < 0) {
 			u = -u;
 		}
-
+		v[r] += u;
+		t = 
 	}
 
 }
@@ -46,3 +49,4 @@ int lsq(int n, int m, matrix x, vector b, int* col, vector normsq)
 
 
 #endif
+
