@@ -15,12 +15,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="regress.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="statutil.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="matutil.c">
       <Filter>Source Files</Filter>
     </ClCompile>

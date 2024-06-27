@@ -1,4 +1,4 @@
-#include "statutil.c"
+//#include "statutil.c"
 
 void factor(int m, int nfac, matrix r, matrix q, vector lambda, vector work)
 {

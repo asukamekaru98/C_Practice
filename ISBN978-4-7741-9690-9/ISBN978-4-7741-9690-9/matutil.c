@@ -33,12 +33,33 @@ matrix newmat(int nrow, int ncol)
 	int i;
 	matrix a;
 
+
 	if ((a = malloc((nrow + 1) * sizeof(void*))) == NULL)
 		return NULL;
 
+	for (i = 0;i < nrow;i++) {
+		a[i] = malloc(sizeof(SCALAR) * ncol);
 
+		//記憶容量不足のとき、開放してNULLを返却
+		if (a[i] == NULL) {
+			while (--i >= 0)
+			{
+				free(a[i]);
+			}
 
-	return malloc(sizeof(SCALAR))
+			free(a);
+			return NULL;
+		}
+	}
+
+	a[nrow] = NULL;
+	return a;
+}
+
+int main()
+{
+	printf("void* %d", (int)sizeof(void*));
+	printf("int* %d", (int)sizeof(int*));
 }
 
 #endif // !MATUTIL
