@@ -56,6 +56,16 @@ matrix newmat(int nrow, int ncol)
 	return a;
 }
 
+// ベクトル作成 エラー時はエラーを表示する。
+vector new_vector(int n)
+{
+	vector v = newvec(n);
+
+	if (v == NULL) error("記憶容量不足");
+
+	return v;
+}
+
 int main()
 {
 	printf("void* %d", (int)sizeof(void*));
